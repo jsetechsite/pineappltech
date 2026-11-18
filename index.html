@@ -1,28 +1,933 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pineappltech | Software & Design Solutions</title>
-    <meta name="description" content="Pineappltech - Innovative software and design solutions based in Legazpi City, Philippines." />
-    <meta name="author" content="Pineappltech" />
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pineappltech — Software &amp; Design Studio in Legazpi City</title>
+  <meta name="description" content="Pineappltech builds websites, apps, custom software, and automated systems for businesses and individuals in Legazpi City, Albay, and beyond.">
+  <meta name="author" content="Pineappltech">
+  <meta name="theme-color" content="#08140F">
+  <link rel="canonical" href="https://pineappltech.pages.dev/">
 
-    <meta property="og:title" content="Pineappltech | Software & Design Solutions" />
-    <meta property="og:description" content="Innovative software and design solutions based in Legazpi City, Philippines." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  <meta property="og:title" content="Pineappltech — Software &amp; Design Studio in Legazpi City">
+  <meta property="og:description" content="Websites, apps, custom software, and automated systems. Built around your work, from Legazpi City to wherever you are.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pineappltech.pages.dev/">
+  <meta property="og:site_name" content="Pineappltech">
+  <meta property="og:image" content="https://pineappltech.pages.dev/assets/img/og-image.jpg">
+  <meta property="og:image:secure_url" content="https://pineappltech.pages.dev/assets/img/og-image.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Pineappltech — Technology that moves your business forward.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pineappltech — Software &amp; Design Studio in Legazpi City">
+  <meta name="twitter:description" content="Websites, apps, custom software, and automated systems. Built around your work.">
+  <meta name="twitter:image" content="https://pineappltech.pages.dev/assets/img/og-image.jpg">
+  <meta name="twitter:image:alt" content="Pineappltech — Technology that moves your business forward.">
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@pineappltech" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-    <script type="module" crossorigin src="/assets/index-z-Ep_BTR.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-D2oBpEpX.css">
-  </head>
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/favicon.png">
+  <link rel="preload" href="assets/fonts/bricolage-grotesque-normal-200800-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/img/logo-mark.png" as="image">
+  <link rel="stylesheet" href="assets/css/fonts.css?v=20261119c">
+  <link rel="stylesheet" href="assets/css/main.css?v=20261119c">
 
-  <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-  </body>
+  <script>document.documentElement.classList.add('js');</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Pineappltech",
+    "description": "Pineappltech is a software and design team based in Legazpi City, Philippines. We build websites, apps, custom software, and automated systems for businesses and individuals.",
+    "url": "https://pineappltech.pages.dev/",
+    "email": "pineappltech@gmail.com",
+    "telephone": "+63-905-683-6636",
+    "priceRange": "$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Legazpi City",
+      "addressRegion": "Albay",
+      "addressCountry": "PH"
+    },
+    "areaServed": "Philippines",
+    "sameAs": [
+      "https://www.facebook.com/pineappltech",
+      "https://www.youtube.com/@pineappltech"
+    ],
+    "knowsAbout": [
+      "Website Development",
+      "Website Maintenance",
+      "Mobile App Development",
+      "Branding & Design",
+      "IT Consultancy",
+      "Custom Software Development",
+      "App Restoration"
+    ]
+  }
+  </script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="scroll-progress" aria-hidden="true"><span data-scroll-progress></span></div>
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Pineappltech — home">
+        <img class="brand-mark" src="assets/img/logo-mark.png" alt="" width="192" height="192">
+        <span class="brand-name">Pineappltech</span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="#services">Products &amp; Services</a>
+        <a href="#builds">Typical builds</a>
+        <a href="#studio">Studio</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="button button--primary button--compact" href="#contact">
+          Start a project
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+          <span class="menu-toggle__label">Menu</span>
+          <span class="menu-toggle__lines" aria-hidden="true"><i></i><i></i></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" data-mobile-menu aria-hidden="true">
+    <div class="mobile-menu__inner">
+      <p class="mono-label">[ Navigation ]</p>
+      <nav class="mobile-nav" aria-label="Mobile">
+        <a href="#services"><span>01</span> Products &amp; Services</a>
+        <a href="#builds"><span>02</span> Typical builds</a>
+        <a href="#studio"><span>03</span> Studio</a>
+        <a href="#process"><span>04</span> Process</a>
+        <a href="#contact"><span>05</span> Contact</a>
+      </nav>
+      <div class="mobile-menu__foot">
+        <a class="button button--primary" href="#contact">Start a project <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <div class="mobile-menu__meta">
+          <a href="mailto:pineappltech@gmail.com">pineappltech@gmail.com</a>
+          <a href="tel:+639056836636">0905 683 6636</a>
+          <span>Legazpi City, Albay, PH</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- 01 — HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__grid"></div>
+        <div class="hero__glow"></div>
+        <div class="hero__ring"></div>
+        <span class="hero__cross hero__cross--a"></span>
+        <span class="hero__cross hero__cross--b"></span>
+        <span class="hero__cross hero__cross--c"></span>
+      </div>
+
+      <div class="container hero__layout">
+        <div class="hero__copy">
+          <p class="eyebrow" data-reveal>[ Software + design studio — Legazpi City, PH ]</p>
+          <h1 class="hero__title" id="hero-title">
+            <span class="line"><span>Technology that</span></span>
+            <span class="line"><span><em>moves</em> your business</span></span>
+            <span class="line"><span>forward.</span></span>
+          </h1>
+          <p class="hero__lead" data-reveal>We design and build websites, apps, custom software, and automated systems for businesses and individuals — from Legazpi City to wherever you are.</p>
+
+          <div class="hero__actions" data-reveal>
+            <a class="button button--gold" href="#contact">
+              Start a project
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="button button--ghost" href="#services">
+              See what we do
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+
+          <ul class="hero__meta" data-reveal>
+            <li>Web</li>
+            <li>Apps</li>
+            <li>Systems</li>
+            <li>Automation</li>
+          </ul>
+        </div>
+
+        <div class="hero__visual" data-hero-visual>
+          <div class="build-panel" data-parallax="0.06">
+            <div class="build-panel__bar">
+              <span class="build-panel__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="build-panel__label">PINEAPPL / STUDIO</span>
+              <span class="build-panel__status"><i></i> OPEN</span>
+            </div>
+
+            <div class="build-panel__stage">
+              <span class="facet facet--gold" aria-hidden="true"></span>
+              <span class="facet facet--lime" aria-hidden="true"></span>
+              <figure class="build-panel__logo">
+                <img src="assets/img/pineappltech-logo.png" alt="Pineappltech logo" width="900" height="1202">
+              </figure>
+              <div class="build-panel__code" aria-hidden="true">
+                <span><i>&gt;</i> build --web</span>
+                <span><i>&gt;</i> automate --workflow</span>
+                <span><i>&gt;</i> design --people-first</span>
+              </div>
+            </div>
+
+            <div class="build-panel__foot">
+              <span>LEGAZPI CITY, PH</span>
+              <span>13.1391° N / 123.7438° E</span>
+            </div>
+          </div>
+
+          <div class="seal" aria-hidden="true">
+            <svg viewBox="0 0 140 140" class="seal__ring">
+              <defs>
+                <path id="seal-path" d="M70,70 m-52,0 a52,52 0 1,1 104,0 a52,52 0 1,1 -104,0"></path>
+              </defs>
+              <text><textPath href="#seal-path" startOffset="50%" text-anchor="middle">SOFTWARE · DESIGN · AUTOMATION ·</textPath></text>
+            </svg>
+            <svg viewBox="0 0 40 40" class="seal__mark">
+              <path d="M20 4 32 16 20 28 8 16Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M20 12 26 18 20 24 14 18Z" fill="currentColor"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="container hero__foot">
+        <a class="scroll-cue" href="#manifesto" aria-label="Scroll to explore">
+          <span class="scroll-cue__line" aria-hidden="true"></span>
+          <span>Scroll to explore</span>
+        </a>
+        <p class="hero__foot-meta">PINEAPPLTECH © 2026 <span>/</span> SOFTWARE &amp; DESIGN</p>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track" data-marquee>
+        <span>Web development</span><i class="diamond"></i>
+        <span>App development</span><i class="diamond"></i>
+        <span>Software &amp; systems</span><i class="diamond"></i>
+        <span>Automation</span><i class="diamond"></i>
+        <span>UI/UX design</span><i class="diamond"></i>
+        <span>Consulting</span><i class="diamond"></i>
+        <span>Web development</span><i class="diamond"></i>
+        <span>App development</span><i class="diamond"></i>
+        <span>Software &amp; systems</span><i class="diamond"></i>
+        <span>Automation</span><i class="diamond"></i>
+        <span>UI/UX design</span><i class="diamond"></i>
+        <span>Consulting</span><i class="diamond"></i>
+      </div>
+    </div>
+
+    <!-- 02 — MANIFESTO -->
+    <section class="manifesto section-pad" id="manifesto" aria-labelledby="manifesto-title">
+      <div class="container manifesto__grid">
+        <div class="manifesto__aside">
+          <p class="section-label" data-reveal>[ 01 — The studio ]</p>
+          <p class="manifesto__note" data-reveal>We are a small team with a simple belief: technology should make the work lighter.</p>
+          <a class="text-link" href="#studio" data-reveal>More about the studio <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+
+        <div class="manifesto__body">
+          <h2 class="visually-hidden" id="manifesto-title">About Pineappltech</h2>
+          <p class="manifesto__lead" data-highlight>Pineappltech is a software and design team based in Legazpi City. We build the websites, systems, and automations that remove busywork — so businesses and individuals can spend their time on what actually matters.</p>
+          <p class="manifesto__sub" data-reveal>We believe good technology should be accessible, practical, and personal. That means fair rates, plain language, and a partner who stays after launch.</p>
+
+          <div class="principles">
+            <div class="principle" data-reveal>
+              <span class="principle__num">01</span>
+              <div>
+                <h3>Accessible</h3>
+                <p>High-quality work at fair, accessible rates — for businesses and individuals alike.</p>
+              </div>
+            </div>
+            <div class="principle" data-reveal>
+              <span class="principle__num">02</span>
+              <div>
+                <h3>Practical</h3>
+                <p>Every decision is measured against the manual work it removes.</p>
+              </div>
+            </div>
+            <div class="principle" data-reveal>
+              <span class="principle__num">03</span>
+              <div>
+                <h3>Personal</h3>
+                <p>Direct collaboration from the first conversation to ongoing support.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 — PRODUCTS & SERVICES -->
+    <section class="services" id="services" aria-labelledby="services-title" data-services>
+      <div class="services__pin" data-services-pin>
+        <div class="container services__head">
+          <div class="services__head-left">
+            <p class="section-label" data-reveal>[ 02 — Products &amp; Services ]</p>
+            <h2 id="services-title" class="section-title section-title--light" data-reveal>Software solutions,<br><em>end to end.</em></h2>
+          </div>
+          <div class="services__head-right">
+            <p class="services__intro" data-reveal>Software is where the work actually happens — enquiries, bookings, payments, records, follow-ups. When those live in different spreadsheets and inboxes, every task takes longer and every handoff loses context.</p>
+            <p data-reveal>We build software solutions that put the work in one place, keep it maintainable, and leave room to grow.</p>
+            <p class="services__hint" data-reveal aria-hidden="true">Scroll to explore <span>→</span></p>
+          </div>
+        </div>
+
+        <div class="services__stage" data-services-stage>
+          <div class="services__track" data-services-track>
+            <article class="service" data-service>
+              <div class="service__top">
+                <span class="service__num">01</span>
+                <span class="service__tag">Website</span>
+              </div>
+              <div class="service__body">
+                <h3>Website<br>Development</h3>
+                <p>Custom websites and web applications built around your business — fast, accessible, and made to last.</p>
+                <ul class="service__list">
+                  <li>Marketing sites</li>
+                  <li>Web apps</li>
+                  <li>CMS &amp; content</li>
+                  <li>Performance &amp; SEO</li>
+                </ul>
+              </div>
+              <div class="service__visual" aria-hidden="true">
+                <svg viewBox="0 0 320 200" class="diagram">
+                  <rect x="24" y="30" width="272" height="146" rx="6" class="d-stroke"/>
+                  <path d="M24 56h272" class="d-stroke"/>
+                  <circle cx="40" cy="43" r="2.5" class="d-fill"/>
+                  <circle cx="50" cy="43" r="2.5" class="d-fill"/>
+                  <circle cx="60" cy="43" r="2.5" class="d-fill"/>
+                  <rect x="44" y="74" width="112" height="10" rx="2" class="d-fill-gold"/>
+                  <rect x="44" y="94" width="168" height="5" rx="2" class="d-fill-soft"/>
+                  <rect x="44" y="106" width="144" height="5" rx="2" class="d-fill-soft"/>
+                  <rect x="44" y="132" width="54" height="20" rx="3" class="d-stroke-gold"/>
+                  <rect x="214" y="74" width="62" height="78" rx="4" class="d-stroke-soft"/>
+                  <path d="M226 88h38M226 98h28M226 108h34" class="d-stroke-soft"/>
+                </svg>
+              </div>
+              <a class="service__link" href="#contact" data-project="Website Development" data-message="I'd like to discuss website development.">Discuss a website <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </article>
+
+            <article class="service" data-service>
+              <div class="service__top">
+                <span class="service__num">02</span>
+                <span class="service__tag">Maintain</span>
+              </div>
+              <div class="service__body">
+                <h3>Website<br>Maintenance</h3>
+                <p>Updates, backups, fixes, and ongoing care so your site stays secure and performs after launch.</p>
+                <ul class="service__list">
+                  <li>Updates &amp; patches</li>
+                  <li>Backups</li>
+                  <li>Bug fixes</li>
+                  <li>Performance monitoring</li>
+                </ul>
+              </div>
+              <div class="service__visual" aria-hidden="true">
+                <svg viewBox="0 0 320 200" class="diagram">
+                  <rect x="28" y="46" width="76" height="112" rx="4" class="d-stroke"/>
+                  <rect x="216" y="46" width="76" height="112" rx="4" class="d-stroke-soft"/>
+                  <rect x="44" y="78" width="112" height="8" rx="2" class="d-fill-gold"/>
+                  <rect x="44" y="94" width="94" height="4" rx="2" class="d-fill-soft"/>
+                  <path d="M80 116h40v-24h-40z" class="d-fill-soft"/>
+                  <rect x="122" y="78" width="62" height="8" rx="2" class="d-fill-soft"/>
+                  <rect x="122" y="94" width="38" height="4" rx="2" class="d-fill-soft"/>
+                </svg>
+              </div>
+              <a class="service__link" href="#contact" data-project="Website Maintenance" data-message="I'd like to discuss website maintenance.">Discuss maintenance <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </article>
+
+            <article class="service" data-service>
+              <div class="service__top">
+                <span class="service__num">03</span>
+                <span class="service__tag">App</span>
+              </div>
+              <div class="service__body">
+                <h3>Mobile App<br>Development</h3>
+                <p>Focused mobile and web apps that put your service in your customers' hands — without unnecessary complexity.</p>
+                <ul class="service__list">
+                  <li>Product scoping</li>
+                  <li>Interface design</li>
+                  <li>Build &amp; launch</li>
+                  <li>Iteration</li>
+                </ul>
+              </div>
+              <div class="service__visual" aria-hidden="true">
+                <svg viewBox="0 0 320 200" class="diagram">
+                  <rect x="97" y="34" width="86" height="146" rx="14" class="d-stroke" transform="rotate(-7 140 107)"/>
+                  <rect x="132" y="20" width="94" height="160" rx="16" class="d-stroke"/>
+                  <path d="M160 31h40" class="d-stroke-soft"/>
+                  <rect x="146" y="48" width="66" height="38" rx="4" class="d-fill-gold"/>
+                  <rect x="146" y="96" width="66" height="5" rx="2" class="d-fill-soft"/>
+                  <rect x="146" y="108" width="48" height="5" rx="2" class="d-fill-soft"/>
+                  <rect x="146" y="128" width="66" height="22" rx="11" class="d-stroke"/>
+                  <path d="M166 139h26" class="d-stroke-soft"/>
+                  <circle cx="179" cy="166" r="4" class="d-stroke-soft"/>
+                </svg>
+              </div>
+              <a class="service__link" href="#contact" data-project="Mobile App Development" data-message="I'd like to discuss mobile app development.">Discuss an app <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </article>
+
+            <article class="service" data-service>
+              <div class="service__top">
+                <span class="service__num">04</span>
+                <span class="service__tag">Brand</span>
+              </div>
+              <div class="service__body">
+                <h3>Branding &amp;<br>Design</h3>
+                <p>Identity, UI/UX, and design systems that stay consistent across every touchpoint.</p>
+                <ul class="service__list">
+                  <li>Visual identity</li>
+                  <li>Interface design</li>
+                  <li>Design systems</li>
+                  <li>Brand guidelines</li>
+                </ul>
+              </div>
+              <div class="service__visual" aria-hidden="true">
+                <svg viewBox="0 0 320 200" class="diagram">
+                  <rect x="34" y="34" width="180" height="132" rx="4" class="d-stroke"/>
+                  <path d="M34 58h180M76 34v132M76 96h138" class="d-stroke-soft"/>
+                  <rect x="46" y="70" width="18" height="46" rx="2" class="d-fill-soft"/>
+                  <rect x="88" y="70" width="52" height="8" rx="2" class="d-fill-gold"/>
+                  <rect x="88" y="86" width="106" height="4" rx="2" class="d-fill-soft"/>
+                  <rect x="88" y="96" width="84" height="4" rx="2" class="d-fill-soft"/>
+                  <rect x="88" y="116" width="38" height="18" rx="3" class="d-stroke-gold"/>
+                  <rect x="230" y="72" width="58" height="94" rx="4" class="d-stroke-soft"/>
+                  <path d="M252 118l26 14-12 4-4 12z" class="d-fill-gold"/>
+                </svg>
+              </div>
+              <a class="service__link" href="#contact" data-project="Branding &amp; Design" data-message="I'd like to discuss branding and design.">Discuss design <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </article>
+
+            <article class="service" data-service>
+              <div class="service__top">
+                <span class="service__num">05</span>
+                <span class="service__tag">Consult</span>
+              </div>
+              <div class="service__body">
+                <h3>IT Consultancy</h3>
+                <p>Practical technical guidance — planning, vendor review, and roadmaps before you commit.</p>
+                <ul class="service__list">
+                  <li>Discovery</li>
+                  <li>Technical planning</li>
+                  <li>Vendor review</li>
+                  <li>Roadmapping</li>
+                </ul>
+              </div>
+              <div class="service__visual" aria-hidden="true">
+                <svg viewBox="0 0 320 200" class="diagram">
+                  <path d="M54 48h140a14 14 0 0 1 14 14v40a14 14 0 0 1-14 14H112l-24 22v-22H54a14 14 0 0 1-14-14V62a14 14 0 0 1 14-14Z" class="d-stroke"/>
+                  <path d="M158 102h86a14 14 0 0 1 14 14v26a14 14 0 0 1-14 14h-18v18l-20-18h-48a14 14 0 0 1-14-14v-26a14 14 0 0 1 14-14Z" class="d-stroke-soft"/>
+                  <path d="M62 78h42M62 90h82" class="d-stroke-soft"/>
+                  <path d="M174 128l8 8 16-18" class="d-stroke-gold"/>
+                </svg>
+              </div>
+              <a class="service__link" href="#contact" data-project="IT Consultancy" data-message="I'd like to book a consultation about a project.">Book a conversation <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </article>
+
+            <article class="service" data-service>
+              <div class="service__top">
+                <span class="service__num">06</span>
+                <span class="service__tag">Build</span>
+              </div>
+              <div class="service__body">
+                <h3>Custom<br>Software Dev.</h3>
+                <p>Scalable custom software that streamlines operations, connects your data, and improves the customer experience.</p>
+                <ul class="service__list">
+                  <li>Internal tools</li>
+                  <li>Dashboards</li>
+                  <li>Databases</li>
+                  <li>Integrations</li>
+                </ul>
+              </div>
+              <div class="service__visual" aria-hidden="true">
+                <svg viewBox="0 0 320 200" class="diagram">
+                  <rect x="30" y="36" width="64" height="38" rx="4" class="d-stroke"/>
+                  <rect x="30" y="126" width="64" height="38" rx="4" class="d-stroke"/>
+                  <rect x="226" y="36" width="64" height="38" rx="4" class="d-stroke"/>
+                  <rect x="226" y="126" width="64" height="38" rx="4" class="d-stroke-gold"/>
+                  <rect x="130" y="69" width="60" height="62" rx="6" class="d-stroke-soft"/>
+                  <path d="M94 55h18v28h18M94 145h18v-28M190 55h18v28h18M190 145h18v-28" class="d-stroke-soft"/>
+                  <path d="M145 85h30M145 97h22M145 109h26" class="d-stroke-soft"/>
+                  <circle cx="258" cy="145" r="5" class="d-fill-gold"/>
+                </svg>
+              </div>
+              <a class="service__link" href="#contact" data-project="Custom Software Development" data-message="I'd like to discuss custom software development.">Discuss a system <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </article>
+
+            <article class="service" data-service>
+              <div class="service__top">
+                <span class="service__num">07</span>
+                <span class="service__tag">Restore</span>
+              </div>
+              <div class="service__body">
+                <h3>App<br>Restoration</h3>
+                <p>Take over, stabilize, and modernize an existing app — security patches, refactors, and new features.</p>
+                <ul class="service__list">
+                  <li>Code audit</li>
+                  <li>Refactoring</li>
+                  <li>Security hardening</li>
+                  <li>Feature migration</li>
+                </ul>
+              </div>
+              <div class="service__visual" aria-hidden="true">
+                <svg viewBox="0 0 320 200" class="diagram">
+                  <rect x="28" y="78" width="70" height="44" rx="4" class="d-stroke"/>
+                  <rect x="224" y="78" width="70" height="44" rx="4" class="d-stroke-gold"/>
+                  <path d="M98 100h18V60h10M98 100h18v40h10M242 60h18v40h10M242 140h18v-40h10" class="d-stroke-soft"/>
+                  <path d="M246 90h18M246 110h18" class="d-fill-soft"/>
+                  <path d="M252 84l10 16-10 16" class="d-stroke-gold"/>
+                  <circle cx="161" cy="60" r="5" class="d-fill-gold"/>
+                </svg>
+              </div>
+              <a class="service__link" href="#contact" data-project="App Restoration" data-message="I'd like to discuss app restoration.">Discuss restoration <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </article>
+          </div>
+        </div>
+
+        <div class="container services__foot">
+          <div class="services__progress" aria-hidden="true">
+            <span class="services__progress-bar"><i data-services-progress></i></span>
+            <span class="services__progress-label"><b data-services-current>01</b> / 07</span>
+          </div>
+          <p class="services__micro">Not sure where to start? <a href="#contact" class="text-link text-link--light">Tell us what you're trying to fix <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 — TYPICAL BUILDS -->
+    <section class="builds section-pad" id="builds" aria-labelledby="builds-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label" data-reveal>[ 03 — Typical builds ]</p>
+          <h2 id="builds-title" class="section-title" data-reveal>Not a portfolio.<br><em>A starting point.</em></h2>
+          <p class="section-intro" data-reveal>Every engagement is custom. These are the kinds of systems we build most often — a useful place to begin the conversation.</p>
+        </div>
+
+        <div class="builds__list">
+          <article class="build-row" data-reveal>
+            <span class="build-row__num">01</span>
+            <div class="build-row__main">
+              <h3>Operations, without the spreadsheet maze.</h3>
+              <p>Internal systems that keep records, approvals, and reporting in one place — and give everyone the same version of the truth.</p>
+              <ul class="tag-list" aria-label="Typical features">
+                <li>Dashboards</li>
+                <li>Roles &amp; permissions</li>
+                <li>Reports</li>
+              </ul>
+            </div>
+            <div class="build-row__visual" aria-hidden="true">
+              <svg viewBox="0 0 220 150">
+                <rect x="10" y="10" width="200" height="130" rx="4" class="d-stroke"/>
+                <path d="M10 38h200M58 38v102" class="d-stroke-soft"/>
+                <rect x="20" y="20" width="26" height="6" rx="2" class="d-fill-gold"/>
+                <path d="M70 52h60M70 64h38M70 84h130M70 96h110M70 108h124M70 120h84" class="d-stroke-soft"/>
+                <rect x="20" y="52" width="26" height="68" rx="2" class="d-fill-soft"/>
+                <circle cx="184" cy="24" r="4" class="d-fill-gold"/>
+              </svg>
+            </div>
+            <a class="build-row__link" href="#contact" data-project="Software &amp; System" data-message="I'd like to discuss an operations system." aria-label="Discuss an operations system">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </article>
+
+          <article class="build-row" data-reveal>
+            <span class="build-row__num">02</span>
+            <div class="build-row__main">
+              <h3>Bookings that run themselves.</h3>
+              <p>Scheduling, inquiries, reminders, and payments connected into one flow — so your calendar stops being a second job.</p>
+              <ul class="tag-list" aria-label="Typical features">
+                <li>Booking</li>
+                <li>Notifications</li>
+                <li>Payments</li>
+              </ul>
+            </div>
+            <div class="build-row__visual" aria-hidden="true">
+              <svg viewBox="0 0 220 150">
+                <rect x="22" y="18" width="176" height="114" rx="4" class="d-stroke"/>
+                <path d="M22 42h176M62 42v90M108 42v90M154 42v90M22 70h176M22 100h176" class="d-stroke-soft"/>
+                <rect x="70" y="50" width="30" height="12" rx="3" class="d-fill-gold"/>
+                <rect x="116" y="80" width="30" height="12" rx="3" class="d-fill-soft"/>
+                <rect x="162" y="108" width="28" height="12" rx="3" class="d-fill-soft"/>
+                <path d="M200 18v16M192 26h16" class="d-stroke-gold"/>
+              </svg>
+            </div>
+            <a class="build-row__link" href="#contact" data-project="App" data-message="I'd like to discuss a booking system." aria-label="Discuss a booking system">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </article>
+
+          <article class="build-row" data-reveal>
+            <span class="build-row__num">03</span>
+            <div class="build-row__main">
+              <h3>A front door that works as hard as you do.</h3>
+              <p>Marketing sites, product sites, and customer portals that load fast, read clearly, and turn interest into action.</p>
+              <ul class="tag-list" aria-label="Typical features">
+                <li>Web</li>
+                <li>CMS</li>
+                <li>SEO</li>
+                <li>Accessibility</li>
+              </ul>
+            </div>
+            <div class="build-row__visual" aria-hidden="true">
+              <svg viewBox="0 0 220 150">
+                <rect x="18" y="16" width="184" height="118" rx="4" class="d-stroke"/>
+                <path d="M18 38h184" class="d-stroke-soft"/>
+                <circle cx="30" cy="27" r="2.5" class="d-fill-soft"/>
+                <circle cx="39" cy="27" r="2.5" class="d-fill-soft"/>
+                <circle cx="48" cy="27" r="2.5" class="d-fill-soft"/>
+                <rect x="34" y="54" width="72" height="12" rx="2" class="d-fill-gold"/>
+                <path d="M34 78h68M34 88h52M34 104h40" class="d-stroke-soft"/>
+                <rect x="128" y="54" width="58" height="64" rx="3" class="d-fill-soft"/>
+                <path d="M140 104l12-14 10 10 8-8 6 12" class="d-stroke-gold"/>
+              </svg>
+            </div>
+            <a class="build-row__link" href="#contact" data-project="Website" data-message="I'd like to discuss a website or customer portal." aria-label="Discuss a website or customer portal">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </article>
+        </div>
+
+        <div class="builds__cta" data-reveal>
+          <p>Have a different problem in mind?</p>
+          <a class="button button--outline" href="#contact">Tell us about it <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 — PROOF -->
+    <section class="proof" id="proof" aria-labelledby="proof-title">
+      <div class="container">
+        <div class="proof__head">
+          <p class="section-label" data-reveal>[ 04 — By the numbers ]</p>
+          <h2 id="proof-title" class="proof__title" data-reveal>A decade of turning manual work into systems that run.</h2>
+        </div>
+        <dl class="stats">
+          <div class="stat" data-reveal>
+            <dt>Years experience</dt>
+            <dd><span data-count="10">10</span><sup>+</sup></dd>
+          </div>
+          <div class="stat" data-reveal>
+            <dt>Projects completed</dt>
+            <dd><span data-count="50">50</span><sup>+</sup></dd>
+          </div>
+          <div class="stat" data-reveal>
+            <dt>Happy clients</dt>
+            <dd><span data-count="30">30</span><sup>+</sup></dd>
+          </div>
+          <div class="stat" data-reveal>
+            <dt>Client satisfaction</dt>
+            <dd><span data-count="100">100</span><sup>%</sup></dd>
+          </div>
+        </dl>
+        <div class="proof__foot" data-reveal>
+          <p>Figures as published by Pineappltech.</p>
+          <a class="text-link" href="#studio">Read the full story <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 — STUDIO / VIDEO -->
+    <section class="studio section-pad" id="studio" aria-labelledby="studio-title">
+      <div class="container studio__grid">
+        <div class="studio__copy">
+          <p class="section-label" data-reveal>[ 05 — The studio ]</p>
+          <h2 id="studio-title" class="section-title section-title--light" data-reveal>Built in Legazpi.<br><em>Made for wherever you are.</em></h2>
+          <p class="studio__lead" data-reveal>At Pineappltech, we deliver efficient software and design solutions that streamline manual processes, helping businesses and individuals save time and effort. Our goal is to provide high-quality services at fair and accessible rates.</p>
+          <p data-reveal>We support not only businesses but also individuals with unique software or design ideas. With us, technology becomes accessible and achievable for everyone.</p>
+
+          <ul class="studio__facts" data-reveal>
+            <li><span>Based in</span> Legazpi City, Albay</li>
+            <li><span>Working with</span> Businesses &amp; individuals</li>
+            <li><span>Focused on</span> Useful, lasting systems</li>
+          </ul>
+
+          <div class="studio__actions" data-reveal>
+            <a class="button button--gold" href="#contact">Start a conversation <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <button class="button button--ghost-light" type="button" data-video-open>
+              Watch the intro
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <figure class="video-card" data-reveal>
+          <button class="video-card__button" type="button" data-video-open aria-label="Play Introducing Pineappltech, 52 seconds">
+            <img src="assets/img/intro-poster.webp" alt="A green title card from the Introducing Pineappltech video, asking whether you want to speed up tasks in your business." width="1280" height="720" loading="lazy">
+            <span class="video-card__shade" aria-hidden="true"></span>
+            <span class="video-card__play" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </span>
+            <span class="video-card__meta">
+              <span>FILM / 01</span>
+              <span>0:52</span>
+            </span>
+          </button>
+          <figcaption>A short introduction to the team and the way we think about technology.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 07 — PROCESS -->
+    <section class="process section-pad" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-head process__head">
+          <p class="section-label" data-reveal>[ 06 — Process ]</p>
+          <h2 id="process-title" class="section-title" data-reveal>A clear path from<br><em>idea to running system.</em></h2>
+          <p class="section-intro" data-reveal>Our proven development process keeps every project transparent, measured, and on track — from the first conversation to ongoing support.</p>
+        </div>
+
+        <div class="process__layout">
+          <aside class="process__rail" aria-hidden="true">
+            <p class="mono-label">Current step</p>
+            <p class="process__big" data-process-big>01</p>
+            <p class="process__name" data-process-name>Discovery</p>
+            <div class="process__meter"><span data-process-meter></span></div>
+            <p class="process__count"><span data-process-count>01</span> / 06</p>
+          </aside>
+
+          <ol class="process__steps">
+            <li class="step" data-step data-step-name="Discovery">
+              <span class="step__num">01</span>
+              <div class="step__body">
+                <p class="mono-label">Step 01 / 06</p>
+                <h3>Discovery</h3>
+                <p>We start by understanding your business needs and objectives through detailed consultation sessions.</p>
+                <p class="step__outcome"><span>You get</span> A clear brief and shared definition of success.</p>
+              </div>
+            </li>
+            <li class="step" data-step data-step-name="Planning">
+              <span class="step__num">02</span>
+              <div class="step__body">
+                <p class="mono-label">Step 02 / 06</p>
+                <h3>Planning</h3>
+                <p>Our team creates a customised plan with clear timelines and milestones for your project.</p>
+                <p class="step__outcome"><span>You get</span> Scope, timeline, and milestones you can track.</p>
+              </div>
+            </li>
+            <li class="step" data-step data-step-name="Development">
+              <span class="step__num">03</span>
+              <div class="step__body">
+                <p class="mono-label">Step 03 / 06</p>
+                <h3>Development</h3>
+                <p>We bring your vision to life using modern tools and industry best practices.</p>
+                <p class="step__outcome"><span>You get</span> Working builds and regular, honest updates.</p>
+              </div>
+            </li>
+            <li class="step" data-step data-step-name="Testing">
+              <span class="step__num">04</span>
+              <div class="step__body">
+                <p class="mono-label">Step 04 / 06</p>
+                <h3>Testing</h3>
+                <p>Rigorous quality assurance ensures your solution works flawlessly across all platforms.</p>
+                <p class="step__outcome"><span>You get</span> QA across devices, browsers, and real use cases.</p>
+              </div>
+            </li>
+            <li class="step" data-step data-step-name="Deployment">
+              <span class="step__num">05</span>
+              <div class="step__body">
+                <p class="mono-label">Step 05 / 06</p>
+                <h3>Deployment</h3>
+                <p>We carefully launch your solution and provide comprehensive training for your team.</p>
+                <p class="step__outcome"><span>You get</span> A careful launch and a team that knows the system.</p>
+              </div>
+            </li>
+            <li class="step" data-step data-step-name="Support">
+              <span class="step__num">06</span>
+              <div class="step__body">
+                <p class="mono-label">Step 06 / 06</p>
+                <h3>Support</h3>
+                <p>Our relationship continues with ongoing support and maintenance to ensure your lasting success.</p>
+                <p class="step__outcome"><span>You get</span> Maintenance, fixes, and a partner after launch.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08 — CONTACT -->
+    <section class="contact section-pad" id="contact" aria-labelledby="contact-title">
+      <div class="contact__bg" aria-hidden="true">
+        <div class="contact__glow"></div>
+        <div class="contact__grid"></div>
+      </div>
+      <div class="container contact__grid-layout">
+        <div class="contact__copy">
+          <p class="section-label" data-reveal>[ 07 — Contact ]</p>
+          <h2 id="contact-title" class="contact__title" data-reveal>Let's build<br>something <em>useful.</em></h2>
+          <p class="contact__lead" data-reveal>Ready to transform your ideas into reality? Tell us what you're working on and we'll get back to you as soon as possible.</p>
+
+          <ul class="contact-list" data-reveal>
+            <li>
+              <span class="contact-list__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+              <div class="contact-list__body"><span>Email</span><a href="mailto:pineappltech@gmail.com">pineappltech@gmail.com</a></div>
+            </li>
+            <li>
+              <span class="contact-list__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg></span>
+              <div class="contact-list__body"><span>Phone</span><a href="tel:+639056836636">0905 683 6636</a></div>
+            </li>
+            <li>
+              <span class="contact-list__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+              <div class="contact-list__body"><span>Location</span><p>Legazpi City, Albay, Philippines</p></div>
+            </li>
+          </ul>
+
+          <div class="contact__social" data-reveal>
+            <span class="mono-label">Follow</span>
+            <a href="https://www.facebook.com/pineappltech" target="_blank" rel="noopener noreferrer">Facebook <svg class="icon icon--up" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+            <a href="https://www.youtube.com/@pineappltech" target="_blank" rel="noopener noreferrer">YouTube <svg class="icon icon--up" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+          </div>
+        </div>
+
+        <div class="contact__form-wrap" data-reveal>
+          <form class="contact-form" data-contact-form action="mailto:pineappltech@gmail.com" method="post" enctype="text/plain" novalidate>
+            <div class="form-head">
+              <p class="mono-label">Project inquiry</p>
+              <p class="form-head__note">No account. No auto-replies. Just a direct conversation.</p>
+            </div>
+
+            <div class="field">
+              <label for="name">Your name <span aria-hidden="true">*</span></label>
+              <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error" placeholder="Juan dela Cruz">
+              <p class="field__error" id="name-error" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label for="email">Email address <span aria-hidden="true">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error" placeholder="you@example.com">
+              <p class="field__error" id="email-error" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label for="project">What do you need?</label>
+              <div class="select-wrap">
+                <select id="project" name="project">
+                  <option value="">Select a project type</option>
+                  <option>Website Development</option>
+                  <option>Website Maintenance</option>
+                  <option>Mobile App Development</option>
+                  <option>Branding &amp; Design</option>
+                  <option>IT Consultancy</option>
+                  <option>Custom Software Development</option>
+                  <option>App Restoration</option>
+                  <option>Not sure yet</option>
+                </select>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="message">Your message <span aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" rows="5" required aria-describedby="message-error" placeholder="Tell us about your project, the problem you're trying to solve, and any timing that matters."></textarea>
+              <p class="field__error" id="message-error" aria-live="polite"></p>
+            </div>
+
+            <div class="hp" aria-hidden="true">
+              <label for="company-url">Company URL</label>
+              <input id="company-url" name="company-url" type="text" tabindex="-1" autocomplete="off">
+            </div>
+
+            <button class="button button--primary button--wide" type="submit">
+              Send message
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </button>
+
+            <p class="form-note">This opens your email app with the details filled in. Nothing is sent to a server. Prefer email? <a href="mailto:pineappltech@gmail.com">pineappltech@gmail.com</a></p>
+            <noscript>
+              <p class="form-note">JavaScript is off, so the guided form isn't running. You can still submit this form to open a plain email, or write to <a href="mailto:pineappltech@gmail.com">pineappltech@gmail.com</a> directly.</p>
+            </noscript>
+            <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#top" class="footer__wordmark" aria-label="Pineappltech — back to top">Pineappltech<span>.</span></a>
+          <p>Software &amp; design, built around your work.</p>
+        </div>
+        <div class="footer__cols">
+          <div class="footer__col">
+            <h3>Explore</h3>
+            <ul>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#builds">What we build</a></li>
+              <li><a href="#studio">Studio</a></li>
+              <li><a href="#process">Process</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#services">Web Development</a></li>
+              <li><a href="#services">App Development</a></li>
+              <li><a href="#services">Software &amp; Systems</a></li>
+              <li><a href="#services">System Automation</a></li>
+              <li><a href="#services">UI/UX Design</a></li>
+              <li><a href="#services">Consulting</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h3>Contact</h3>
+            <ul>
+              <li><a href="mailto:pineappltech@gmail.com">pineappltech@gmail.com</a></li>
+              <li><a href="tel:+639056836636">0905 683 6636</a></li>
+              <li>Legazpi City, Albay, PH</li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h3>Social</h3>
+            <ul>
+              <li><a href="https://www.facebook.com/pineappltech" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+              <li><a href="https://www.youtube.com/@pineappltech" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+            </ul>
+            <p class="footer__time"><span data-clock>--:--</span> PHT</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2026 Pineappltech. All rights reserved.</p>
+        <p class="footer__coords">13.1391° N / 123.7438° E</p>
+        <a class="footer__top-link" href="#top">Back to top <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="video-dialog" id="video-dialog" aria-labelledby="video-title" data-video-dialog>
+    <div class="video-dialog__inner">
+      <div class="video-dialog__bar">
+        <h2 id="video-title">Introducing Pineappltech</h2>
+        <button class="video-dialog__close" type="button" data-video-close aria-label="Close video">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+      <div class="video-dialog__frame" data-video-frame></div>
+      <p class="video-dialog__caption">Pineappl Technologies. We dedicate building valuable tech for all. <span>0:52</span></p>
+    </div>
+  </dialog>
+
+  <script src="assets/js/main.js?v=20261119c" defer></script>
+</body>
 </html>
